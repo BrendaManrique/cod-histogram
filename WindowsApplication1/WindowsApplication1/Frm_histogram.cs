@@ -9,6 +9,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Drawing.Drawing2D;
 
+
 namespace WindowsApplication1
 {
     public partial class Frm_histogram : Form
@@ -19,6 +20,7 @@ namespace WindowsApplication1
         public static int[] histogramaR = new int[valores];
         public static int[] histogramaG = new int[valores];
         public static int[] histogramaB = new int[valores];
+
         public static int tamanio;
         public  int valor;
         public int valorR; 
